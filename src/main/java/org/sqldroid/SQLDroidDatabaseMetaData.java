@@ -26,7 +26,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	
 	@Override
 	public boolean allProceduresAreCallable() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -34,7 +34,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean allTablesAreSelectable() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -42,7 +42,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean dataDefinitionCausesTransactionCommit() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -50,7 +50,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean dataDefinitionIgnoredInTransactions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -58,7 +58,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean deletesAreDetected(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -66,7 +66,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean doesMaxRowSizeIncludeBlobs() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -76,7 +76,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	public ResultSet getAttributes(String catalog, String schemaPattern,
 			String typeNamePattern, String attributeNamePattern)
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -85,7 +85,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getBestRowIdentifier(String catalog, String schema,
 			String table, int scope, boolean nullable) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -93,7 +93,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getCatalogSeparator() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -101,7 +101,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getCatalogTerm() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -109,7 +109,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public ResultSet getCatalogs() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -118,7 +118,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getColumnPrivileges(String catalog, String schema,
 			String table, String columnNamePattern) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -271,7 +271,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public Connection getConnection() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -281,7 +281,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	public ResultSet getCrossReference(String primaryCatalog,
 			String primarySchema, String primaryTable, String foreignCatalog,
 			String foreignSchema, String foreignTable) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -294,7 +294,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getDatabaseMinorVersion() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -313,7 +313,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getDefaultTransactionIsolation() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -343,7 +343,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getExportedKeys(String catalog, String schema, String table)
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -351,7 +351,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getExtraNameCharacters() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -359,7 +359,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getIdentifierQuoteString() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -368,7 +368,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getImportedKeys(String catalog, String schema, String table)
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -377,7 +377,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getIndexInfo(String catalog, String schema, String table,
 			boolean unique, boolean approximate) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -385,7 +385,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getJDBCMajorVersion() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -393,7 +393,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getJDBCMinorVersion() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -401,7 +401,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxBinaryLiteralLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -409,7 +409,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxCatalogNameLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -417,7 +417,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxCharLiteralLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -425,7 +425,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxColumnNameLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -433,7 +433,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxColumnsInGroupBy() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -441,7 +441,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxColumnsInIndex() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -449,7 +449,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxColumnsInOrderBy() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -457,7 +457,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxColumnsInSelect() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -465,7 +465,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxColumnsInTable() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -473,7 +473,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxConnections() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -481,7 +481,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxCursorNameLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -489,7 +489,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxIndexLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -497,7 +497,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxProcedureNameLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -505,7 +505,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxRowSize() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -513,7 +513,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxSchemaNameLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -521,7 +521,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxStatementLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -529,7 +529,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxStatements() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -537,7 +537,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxTableNameLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -545,7 +545,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxTablesInSelect() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -553,7 +553,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getMaxUserNameLength() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -561,7 +561,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getNumericFunctions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -592,7 +592,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	public ResultSet getProcedureColumns(String catalog, String schemaPattern,
 			String procedureNamePattern, String columnNamePattern)
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -600,7 +600,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getProcedureTerm() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -609,7 +609,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getProcedures(String catalog, String schemaPattern,
 			String procedureNamePattern) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -617,7 +617,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getResultSetHoldability() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -625,7 +625,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getSQLKeywords() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -633,7 +633,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public int getSQLStateType() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return 0;
@@ -641,7 +641,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getSchemaTerm() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -649,7 +649,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public ResultSet getSchemas() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -657,7 +657,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getSearchStringEscape() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -665,7 +665,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getStringFunctions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -674,7 +674,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getSuperTables(String catalog, String schemaPattern,
 			String tableNamePattern) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -683,7 +683,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getSuperTypes(String catalog, String schemaPattern,
 			String typeNamePattern) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -691,7 +691,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getSystemFunctions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -700,7 +700,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getTablePrivileges(String catalog, String schemaPattern,
 			String tableNamePattern) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -708,7 +708,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public ResultSet getTableTypes() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -778,7 +778,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getTimeDateFunctions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -831,7 +831,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getUDTs(String catalog, String schemaPattern,
 			String typeNamePattern, int[] types) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -839,7 +839,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getURL() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -847,7 +847,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public String getUserName() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -856,7 +856,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public ResultSet getVersionColumns(String catalog, String schema,
 			String table) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return null;
@@ -864,7 +864,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean insertsAreDetected(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -872,7 +872,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean isCatalogAtStart() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -880,7 +880,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean isReadOnly() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -888,7 +888,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean locatorsUpdateCopy() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -896,7 +896,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean nullPlusNonNullIsNull() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -904,7 +904,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean nullsAreSortedAtEnd() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -912,7 +912,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean nullsAreSortedAtStart() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -920,7 +920,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean nullsAreSortedHigh() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -928,7 +928,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean nullsAreSortedLow() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -936,7 +936,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean othersDeletesAreVisible(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -944,7 +944,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean othersInsertsAreVisible(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -952,7 +952,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean othersUpdatesAreVisible(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -960,7 +960,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean ownDeletesAreVisible(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -968,7 +968,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean ownInsertsAreVisible(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -976,7 +976,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean ownUpdatesAreVisible(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -984,7 +984,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean storesLowerCaseIdentifiers() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -992,7 +992,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean storesLowerCaseQuotedIdentifiers() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1000,7 +1000,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean storesMixedCaseIdentifiers() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1008,7 +1008,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean storesMixedCaseQuotedIdentifiers() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1021,7 +1021,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean storesUpperCaseQuotedIdentifiers() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1029,7 +1029,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsANSI92EntryLevelSQL() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1037,7 +1037,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsANSI92FullSQL() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1045,7 +1045,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsANSI92IntermediateSQL() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1053,7 +1053,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsAlterTableWithAddColumn() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1061,7 +1061,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsAlterTableWithDropColumn() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1074,7 +1074,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsCatalogsInDataManipulation() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1082,7 +1082,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsCatalogsInIndexDefinitions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1090,7 +1090,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsCatalogsInPrivilegeDefinitions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1098,7 +1098,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsCatalogsInProcedureCalls() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1106,7 +1106,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsCatalogsInTableDefinitions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1114,7 +1114,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsColumnAliasing() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1122,7 +1122,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsConvert() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1131,7 +1131,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public boolean supportsConvert(int fromType, int toType)
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1139,7 +1139,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsCoreSQLGrammar() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1147,7 +1147,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsCorrelatedSubqueries() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1156,7 +1156,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public boolean supportsDataDefinitionAndDataManipulationTransactions()
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1165,7 +1165,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public boolean supportsDataManipulationTransactionsOnly()
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1173,7 +1173,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsDifferentTableCorrelationNames() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1181,7 +1181,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsExpressionsInOrderBy() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1189,7 +1189,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsExtendedSQLGrammar() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1197,7 +1197,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsFullOuterJoins() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1210,7 +1210,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsGroupBy() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1218,7 +1218,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsGroupByBeyondSelect() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1226,7 +1226,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsGroupByUnrelated() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1234,7 +1234,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsIntegrityEnhancementFacility() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1242,7 +1242,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsLikeEscapeClause() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1250,7 +1250,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsLimitedOuterJoins() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1258,7 +1258,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsMinimumSQLGrammar() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1266,7 +1266,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsMixedCaseIdentifiers() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1274,7 +1274,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsMixedCaseQuotedIdentifiers() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1282,7 +1282,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsMultipleOpenResults() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1290,7 +1290,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsMultipleResultSets() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1298,7 +1298,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsMultipleTransactions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1306,7 +1306,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsNamedParameters() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1314,7 +1314,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsNonNullableColumns() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1322,7 +1322,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsOpenCursorsAcrossCommit() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1330,7 +1330,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsOpenCursorsAcrossRollback() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1338,7 +1338,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsOpenStatementsAcrossCommit() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1346,7 +1346,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsOpenStatementsAcrossRollback() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1354,7 +1354,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsOrderByUnrelated() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1362,7 +1362,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsOuterJoins() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1370,7 +1370,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsPositionedDelete() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1378,7 +1378,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsPositionedUpdate() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1387,7 +1387,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public boolean supportsResultSetConcurrency(int type, int concurrency)
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1396,7 +1396,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public boolean supportsResultSetHoldability(int holdability)
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1404,7 +1404,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsResultSetType(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1412,7 +1412,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSavepoints() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1420,7 +1420,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSchemasInDataManipulation() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1428,7 +1428,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSchemasInIndexDefinitions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1436,7 +1436,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSchemasInPrivilegeDefinitions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1444,7 +1444,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSchemasInProcedureCalls() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1452,7 +1452,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSchemasInTableDefinitions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1460,7 +1460,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSelectForUpdate() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1468,7 +1468,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsStatementPooling() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1476,7 +1476,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsStoredProcedures() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1484,7 +1484,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSubqueriesInComparisons() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1492,7 +1492,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSubqueriesInExists() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1500,7 +1500,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSubqueriesInIns() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1508,7 +1508,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsSubqueriesInQuantifieds() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1516,7 +1516,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsTableCorrelationNames() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1525,7 +1525,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 	@Override
 	public boolean supportsTransactionIsolationLevel(int level)
 			throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1533,7 +1533,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsTransactions() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1541,7 +1541,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsUnion() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1549,7 +1549,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean supportsUnionAll() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1557,7 +1557,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean updatesAreDetected(int type) throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1565,7 +1565,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean usesLocalFilePerTable() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
@@ -1573,7 +1573,7 @@ public class SQLDroidDatabaseMetaData implements DatabaseMetaData {
 
 	@Override
 	public boolean usesLocalFiles() throws SQLException {
-		System.err.println(" ********************* not implemented @ "
+		Log.v(" ********************* not implemented @ "
 				+ DebugPrinter.getFileName() + " line "
 				+ DebugPrinter.getLineNumber());
 		return false;
